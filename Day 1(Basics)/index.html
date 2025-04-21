@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basics</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+    <!--* progress tag -->
+    <section>
+        <label for="file">File progress:</label>
+        <progress id="file" max="100" value="36">1000</progress>
+    </section>
+
+    <!--* Details Tag  -->
+    <details>
+        <summary>Details</summary> <!-- Only summary part is visible in details tag -->
+        Something small enough to escape casual notice.
+    </details>
+    <!--? Details tag in open state  -->
+    <details open>
+        <summary>Details</summary>
+        Something small enough to escape casual notice.
+    </details>
+
+    <!--! Output tag  -->
+    <form id="example-form">
+        <input type="range" id="b" name="b" value="50" /> +
+        <input type="number" id="a" name="a" value="10" /> =
+        <output name="result" for="a b">60</output>
+    </form>
+
+
+    <script src="script.js"></script>
 </body>
+
 </html>
