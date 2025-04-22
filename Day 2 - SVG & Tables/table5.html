@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colgroup and rowgroup</title>
+</head>
+<body>
+    <table>
+        <colgroup>
+          <col span="1" style="background-color: lightgray;">   <!-- First column: Row headers -->
+          <col span="2" style="background-color: lightyellow;"> <!-- Q1, Q2  span="2" means next 2 columns--> 
+          <col span="2" style="background-color: lightblue;">   <!-- Q3, Q4 -->
+        </colgroup>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Q1</th>
+            <th>Q2</th>
+            <th>Q3</th>
+            <th>Q4</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Sales</th>
+            <td>100</td>
+            <td>200</td>
+            <td>150</td>
+            <td>250</td>
+          </tr>
+        </tbody>
+      </table>
+</body>
+</html>
