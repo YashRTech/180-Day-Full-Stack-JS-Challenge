@@ -1,0 +1,19 @@
+/*! Descendent Selector */
+/* div p{
+    color: red;
+} */
+
+/*! Child Selector */
+.parent > p {
+  color: green;
+}
+
+/*! General Sibling Selector */
+h1 ~ p {
+  color: red;
+}
+
+/*! Adjacent Sibling Selector */
+h1 + p {
+  color: blue;
+}
