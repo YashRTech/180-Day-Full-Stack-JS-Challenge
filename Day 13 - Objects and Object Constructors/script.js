@@ -18,5 +18,11 @@ function Player(name, marker) {
 
 const player1 = new Player("steve", "X");
 const player2 = new Player("also steve", "O");
-player1.sayName(); // logs 'steve'
-player2.sayName(); // logs 'also steve'
+// player1.sayName(); // logs 'steve'
+// player2.sayName(); // logs 'also steve'
+
+
+const person = { name: "Alice" };
+const proto = Object.getPrototypeOf(person);
+
+console.log(proto); // Outputs: {} or [Object: null prototype] depending on the context
