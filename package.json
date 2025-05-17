@@ -1,5 +1,29 @@
 {
   "dependencies": {
     "modern-normalize": "^3.0.1"
-  }
+  },
+  "type": "module",
+  "name": "180-day-full-stack-js",
+  "version": "1.0.0",
+  "description": ">180 Days to Full Stack Developer\" is a personal challenge I'm documenting publicly.",
+  "main": "index.js",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.3",
+    "webpack": "^5.99.8",
+    "webpack-cli": "^6.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YashRTech/180-Day-Full-Stack-JS-Challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YashRTech/180-Day-Full-Stack-JS-Challenge/issues"
+  },
+  "homepage": "https://github.com/YashRTech/180-Day-Full-Stack-JS-Challenge#readme"
 }
